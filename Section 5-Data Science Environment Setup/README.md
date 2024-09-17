@@ -20,3 +20,13 @@ Step 2: Follow the getting started with Conda steps in this article: [https://do
 Step 3: Watch and follow the Mac Environment Setup and Mac Environment Setup 2 videos
 
 Step 4: Continue with the course
+
+## Jupyter Notebook Walkthrough
+
+- [Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
+- [Dataquest Jupyter Notebook for Beginners Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+- [heart-disease.cvs](./heart-disease.csv)
+- [6-step-ml-framework.png](./6-step-ml-framework.png)
+- [example-notebook](./example-notebook.ipynb)
+
+## **Section 5 Completed**
