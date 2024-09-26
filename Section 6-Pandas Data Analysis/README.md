@@ -51,12 +51,17 @@ However, this will return an error if you’re using a newer version of pandas. 
 In summary:
 
 ### Previous code (will error)
+``` python
 car_sales["Price"] = car_sales["Price"].str.replace('[\$\,\.]', '')
+```
  
 ### New code 
 ### Change Price column to integers
+```python
 car_sales["Price"] = car_sales["Price"].str.replace('[\$\,\.]', '', regex=True)
-
+car_sales['Price'] = car_sales["Price"].astype(float).round(decimals=0)
+car_sales['Price'] = car_sales["Price"].astype(int)
+```
 You can see the documentation for this operation on the pandas website under [pandas.Series.str.replace](https://pandas.pydata.org/docs/reference/api/pandas.Series.str.replace.html).
 
 And as always, you can see the most up to date code examples on the course GitHub notebook/online book version:
